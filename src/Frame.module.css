@@ -1,0 +1,19 @@
+.frame {
+    fill: #ffffff00;
+    stroke: #50505030;
+    stroke-width: 3px;
+}
+.selected {
+    stroke: #999;
+}
+
+.frame:hover, .highlighted {
+    fill: #50607020;
+}
+
+.frame.selected{
+    fill: #50607020;
+}
+.frame.selected:hover {
+    fill: #50607020;
+}
